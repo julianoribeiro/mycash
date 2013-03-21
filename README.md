@@ -1,4 +1,4 @@
-mycash
+MyCash
 ======
 
 Gerenciador Financeiro
