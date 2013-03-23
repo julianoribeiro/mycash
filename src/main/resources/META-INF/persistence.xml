@@ -14,10 +14,11 @@
 			<property name="hibernate.format_sql" value="false" />
 			<property name="hibernate.connection.autocommit" value="false" />
 			
-			<property name="hibernate.cache.use_second_level_cache" value="true"/>
+<!-- 			<property name="hibernate.cache.use_second_level_cache" value="true"/>
 			<property name="hibernate.cache.use_query_cache" value="true"/>
 			<property name="hibernate.cache.provider_class" value="net.sf.ehcache.hibernate.EhCacheProvider"/>
-			
+			<property name="hibernate.cache.region.factory_class" value="net.sf.ehcache.hibernate.EhCacheRegionFactory" />
+ -->			
 		</properties>
 	</persistence-unit>
 	
@@ -32,10 +33,11 @@
 			<property name="hibernate.show_sql" value="false" />
 			<property name="hibernate.format_sql" value="false" />
 			
-			<property name="hibernate.cache.use_second_level_cache" value="true"/>
+<!-- 			<property name="hibernate.cache.use_second_level_cache" value="true"/>
 			<property name="hibernate.cache.use_query_cache" value="true"/>
 			<property name="hibernate.cache.provider_class" value="net.sf.ehcache.hibernate.EhCacheProvider"/>
-      
+			<property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory" />
+ -->      
 		</properties>
 	</persistence-unit>
 	

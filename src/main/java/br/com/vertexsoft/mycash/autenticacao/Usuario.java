@@ -37,7 +37,7 @@ public class Usuario implements UserDetails, Serializable {
 
 	private String senha;
 
-	@Type(type = "org.joda.time.contrib.hibernate.PersistentDateTime")
+	@Type(type = "dateTime")
 	private DateTime criado = new DateTime(DateTimeUtils.currentTimeMillis());
 
 	Usuario() {
